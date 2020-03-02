@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shopping.mapper.OrderMasterMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.shopping.entity.OrderMaster">
+        <id column="master_id" property="masterId" />
+        <result column="user_id" property="userId" />
+        <result column="user_address_id" property="userAddressId" />
+        <result column="currency_id" property="currencyId" />
+        <result column="supplier_id" property="supplierId" />
+        <result column="supplier_name" property="supplierName" />
+        <result column="total_money" property="totalMoney" />
+        <result column="pay_type" property="payType" />
+        <result column="order_src" property="orderSrc" />
+        <result column="district_money" property="districtMoney" />
+        <result column="shipping_money" property="shippingMoney" />
+        <result column="payment_money" property="paymentMoney" />
+        <result column="paycoin_amount" property="paycoinAmount" />
+        <result column="paycoin_ratio" property="paycoinRatio" />
+        <result column="shipping_comp_name" property="shippingCompName" />
+        <result column="shipping_sn" property="shippingSn" />
+        <result column="shipping_no" property="shippingNo" />
+        <result column="invoice_type" property="invoiceType" />
+        <result column="invoice_title" property="invoiceTitle" />
+        <result column="invoice_content" property="invoiceContent" />
+        <result column="create_time" property="createTime" />
+        <result column="shipping_time" property="shippingTime" />
+        <result column="pay_time" property="payTime" />
+        <result column="receive_time" property="receiveTime" />
+        <result column="settlement_status" property="settlementStatus" />
+        <result column="order_status" property="orderStatus" />
+        <result column="order_point" property="orderPoint" />
+        <result column="cancel_reason" property="cancelReason" />
+        <result column="cancel_time" property="cancelTime" />
+        <result column="modified_time" property="modifiedTime" />
+        <result column="is_delete" property="isDelete" />
+        <result column="version" property="version" />
+        <result column="currencyName" property="currencyName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        master_id, user_id, user_address_id, currency_id, supplier_id, supplier_name, total_money, pay_type, order_src, district_money, shipping_money, payment_money, paycoin_amount, paycoin_ratio, shipping_comp_name, shipping_sn, shipping_no, invoice_type, invoice_title, invoice_content, create_time, shipping_time, pay_time, receive_time, settlement_status, order_status, order_point, cancel_reason, cancel_time, modified_time, is_delete, version
+    </sql>
+    <select id="orderByOrderId" resultMap="BaseResultMap">
+        select
+        a.*,b.currency_name currencyName
+        FROM tb_order_master a left join tb_currency b on a.currency_id=b.id
+        WHERE  a.user_id= #{userId}
+        AND  a.master_id= #{orderId}
+    </select>
+</mapper>

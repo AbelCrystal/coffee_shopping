@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shopping.mapper.UserAddressMapper">
+    <resultMap id="BaseResultMap" type="com.shopping.entity.UserAddressBean">
+        <result column="address_id" jdbcType="VARCHAR" property="addressId" />
+        <result column="user_id" jdbcType="VARCHAR" property="userId" />
+        <result column="user_name" jdbcType="VARCHAR" property="userName" />
+        <result column="user_phone" jdbcType="VARCHAR" property="userPhone" />
+        <result column="postcode" jdbcType="VARCHAR" property="postcode" />
+        <result column="province" jdbcType="VARCHAR" property="province" />
+        <result column="city" jdbcType="VARCHAR" property="city" />
+        <result column="district" jdbcType="VARCHAR" property="district" />
+        <result column="detaild_address" jdbcType="VARCHAR" property="detaildAddress" />
+        <result column="is_default" jdbcType="CHAR" property="isDefault" />
+        <result column="is_delete" jdbcType="CHAR" property="isDelete" />
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+        <result column="mark" jdbcType="VARCHAR" property="mark" />
+    </resultMap>
+
+</mapper>

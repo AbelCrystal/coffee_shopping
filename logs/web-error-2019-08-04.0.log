@@ -1,0 +1,11 @@
+2019-08-04 01:06:12.972 [redisMessageListenerContainer-60] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-04 03:07:08.603 [redisMessageListenerContainer-72] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-04 05:07:23.737 [redisMessageListenerContainer-74] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-04 07:07:38.869 [redisMessageListenerContainer-75] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-04 09:07:54.066 [redisMessageListenerContainer-76] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-04 11:08:09.262 [redisMessageListenerContainer-77] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-04 13:08:24.397 [redisMessageListenerContainer-78] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-04 17:04:17.157 [redisMessageListenerContainer-1] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-04 19:04:32.264 [redisMessageListenerContainer-7] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-04 21:04:47.398 [redisMessageListenerContainer-8] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-04 23:05:02.539 [redisMessageListenerContainer-9] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms

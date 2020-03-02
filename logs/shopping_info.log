@@ -1,0 +1,156 @@
+2019-08-14 10:09:46.874 [SimpleAsyncTaskExecutor-1] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@441f2bd2: tags=[{amq.ctag-hEwrj7W7PD-HriWRHem6Lw=orders.queue}], channel=Cached Rabbit Channel: AMQChannel(amqp://shopping@47.52.130.233:5672/shopping_test,1), conn: Proxy@53b10f9f Shared Rabbit Connection: SimpleConnection@e1ab3dc [delegate=amqp://shopping@47.52.130.233:5672/shopping_test, localPort= 50449], acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:09:46.886 [SimpleAsyncTaskExecutor-2] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:09:47.306 [SimpleAsyncTaskExecutor-1] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@7dfaa4c5: tags=[{amq.ctag-GbLgMRw0aZpP5UZ1Kzgg_Q=ordercar.queue}], channel=Cached Rabbit Channel: AMQChannel(amqp://shopping@47.52.130.233:5672/shopping_test,2), conn: Proxy@53b10f9f Shared Rabbit Connection: null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:09:56.920 [SimpleAsyncTaskExecutor-2] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:10:06.950 [SimpleAsyncTaskExecutor-2] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:10:16.979 [SimpleAsyncTaskExecutor-2] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:10:21.982 [SimpleAsyncTaskExecutor-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@257e5d40: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:10:27.011 [SimpleAsyncTaskExecutor-3] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:10:32.012 [SimpleAsyncTaskExecutor-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@101f7927: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:10:37.042 [SimpleAsyncTaskExecutor-3] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:10:47.074 [SimpleAsyncTaskExecutor-3] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:10:57.103 [SimpleAsyncTaskExecutor-3] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:11:02.103 [SimpleAsyncTaskExecutor-3] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@a9bbd07: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:11:07.132 [SimpleAsyncTaskExecutor-4] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:11:12.133 [SimpleAsyncTaskExecutor-3] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@5d846c77: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:11:17.165 [SimpleAsyncTaskExecutor-4] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:11:27.197 [SimpleAsyncTaskExecutor-4] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:11:37.229 [SimpleAsyncTaskExecutor-4] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:11:42.229 [SimpleAsyncTaskExecutor-4] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@4a2717f4: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:11:47.261 [SimpleAsyncTaskExecutor-5] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:11:52.261 [SimpleAsyncTaskExecutor-4] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@30c9705: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:11:57.290 [SimpleAsyncTaskExecutor-5] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:12:07.322 [SimpleAsyncTaskExecutor-5] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:12:17.354 [SimpleAsyncTaskExecutor-5] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:12:22.355 [SimpleAsyncTaskExecutor-5] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@5edcecbd: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:12:27.387 [SimpleAsyncTaskExecutor-6] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:12:32.387 [SimpleAsyncTaskExecutor-5] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@29354afc: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:12:37.420 [SimpleAsyncTaskExecutor-6] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:12:47.450 [SimpleAsyncTaskExecutor-6] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:12:57.483 [SimpleAsyncTaskExecutor-6] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:13:02.483 [SimpleAsyncTaskExecutor-6] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@5354e046: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:13:07.513 [SimpleAsyncTaskExecutor-7] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:13:12.513 [SimpleAsyncTaskExecutor-6] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@6533fb4: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:13:17.549 [SimpleAsyncTaskExecutor-7] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:13:27.580 [SimpleAsyncTaskExecutor-7] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:13:37.608 [SimpleAsyncTaskExecutor-7] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:13:42.608 [SimpleAsyncTaskExecutor-7] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@3fe38c3a: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:13:47.639 [SimpleAsyncTaskExecutor-8] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:13:52.639 [SimpleAsyncTaskExecutor-7] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@7b32d13d: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:13:57.670 [SimpleAsyncTaskExecutor-8] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:14:07.701 [SimpleAsyncTaskExecutor-8] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:14:17.730 [SimpleAsyncTaskExecutor-8] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:14:22.731 [SimpleAsyncTaskExecutor-8] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@21fa18fb: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:14:27.767 [SimpleAsyncTaskExecutor-9] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:14:32.768 [SimpleAsyncTaskExecutor-8] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@77883074: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:14:37.803 [SimpleAsyncTaskExecutor-9] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:14:47.837 [SimpleAsyncTaskExecutor-9] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:14:57.870 [SimpleAsyncTaskExecutor-9] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:15:02.869 [SimpleAsyncTaskExecutor-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@1e3598b1: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:15:07.901 [SimpleAsyncTaskExecutor-10] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:15:12.901 [SimpleAsyncTaskExecutor-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@6abde99f: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:15:17.932 [SimpleAsyncTaskExecutor-10] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:15:27.963 [SimpleAsyncTaskExecutor-10] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:15:37.994 [SimpleAsyncTaskExecutor-10] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:15:42.994 [SimpleAsyncTaskExecutor-10] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@1ff71b46: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:15:48.027 [SimpleAsyncTaskExecutor-11] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:15:53.028 [SimpleAsyncTaskExecutor-10] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@3b70c3e9: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:15:58.058 [SimpleAsyncTaskExecutor-11] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:16:08.091 [SimpleAsyncTaskExecutor-11] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:16:18.134 [SimpleAsyncTaskExecutor-11] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:16:23.134 [SimpleAsyncTaskExecutor-11] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@7a436de8: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:16:28.166 [SimpleAsyncTaskExecutor-12] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:16:28.224 [SimpleAsyncTaskExecutor-12] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#1d0e20a0:41/SimpleConnection@52ef6ddf [delegate=amqp://shopping@47.52.130.233:5672/shopping_test, localPort= 54620]
+2019-08-14 10:16:33.166 [SimpleAsyncTaskExecutor-11] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@67bab30e: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:45:17.527 [SimpleAsyncTaskExecutor-12] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@48a37d31: tags=[{amq.ctag-xL1xI62UjcTQQajm6L5Olw=ordercar.queue}], channel=Cached Rabbit Channel: AMQChannel(amqp://shopping@47.52.130.233:5672/shopping_test,2), conn: Proxy@53b10f9f Shared Rabbit Connection: SimpleConnection@52ef6ddf [delegate=amqp://shopping@47.52.130.233:5672/shopping_test, localPort= 54620], acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:45:17.528 [SimpleAsyncTaskExecutor-13] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:45:17.821 [SimpleAsyncTaskExecutor-12] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@21a8bc2b: tags=[{amq.ctag-fgF06Vd9zO4dG9tbpCygrw=orders.queue}], channel=Cached Rabbit Channel: AMQChannel(amqp://shopping@47.52.130.233:5672/shopping_test,1), conn: Proxy@53b10f9f Shared Rabbit Connection: null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:45:27.560 [SimpleAsyncTaskExecutor-13] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:45:37.598 [SimpleAsyncTaskExecutor-13] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:45:47.630 [SimpleAsyncTaskExecutor-13] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:45:52.631 [SimpleAsyncTaskExecutor-13] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@380fc01b: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:45:57.665 [SimpleAsyncTaskExecutor-14] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:46:02.665 [SimpleAsyncTaskExecutor-13] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@77afb7ca: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:46:07.698 [SimpleAsyncTaskExecutor-14] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:46:17.732 [SimpleAsyncTaskExecutor-14] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:46:27.766 [SimpleAsyncTaskExecutor-14] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:46:32.784 [SimpleAsyncTaskExecutor-14] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@6a4f4057: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:46:37.797 [SimpleAsyncTaskExecutor-15] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:46:42.798 [SimpleAsyncTaskExecutor-14] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@22c06a54: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:46:47.830 [SimpleAsyncTaskExecutor-15] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:46:57.870 [SimpleAsyncTaskExecutor-15] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:47:07.913 [SimpleAsyncTaskExecutor-15] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:47:12.913 [SimpleAsyncTaskExecutor-15] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@6e875481: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 10:47:17.947 [SimpleAsyncTaskExecutor-16] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 10:47:18.010 [SimpleAsyncTaskExecutor-16] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#1d0e20a0:54/SimpleConnection@a77b939 [delegate=amqp://shopping@47.52.130.233:5672/shopping_test, localPort= 55295]
+2019-08-14 10:47:22.947 [SimpleAsyncTaskExecutor-15] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@5f595027: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 12:15:07.584 [SimpleAsyncTaskExecutor-16] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@6af3e648: tags=[{amq.ctag-ZzJvB-EEPx_YFyG6C76UjA=orders.queue}], channel=Cached Rabbit Channel: AMQChannel(amqp://shopping@47.52.130.233:5672/shopping_test,2), conn: Proxy@53b10f9f Shared Rabbit Connection: SimpleConnection@a77b939 [delegate=amqp://shopping@47.52.130.233:5672/shopping_test, localPort= 55295], acknowledgeMode=AUTO local queue size=0
+2019-08-14 12:15:07.585 [SimpleAsyncTaskExecutor-17] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 12:15:07.840 [SimpleAsyncTaskExecutor-16] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@317bd080: tags=[{amq.ctag-JMcYb4h1DBeKZaYmUmRnaQ=ordercar.queue}], channel=Cached Rabbit Channel: AMQChannel(amqp://shopping@47.52.130.233:5672/shopping_test,1), conn: Proxy@53b10f9f Shared Rabbit Connection: null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 12:15:17.617 [SimpleAsyncTaskExecutor-17] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 12:15:27.649 [SimpleAsyncTaskExecutor-17] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 12:15:37.682 [SimpleAsyncTaskExecutor-17] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 12:15:42.682 [SimpleAsyncTaskExecutor-17] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@775ee22: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 12:15:47.712 [SimpleAsyncTaskExecutor-18] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 12:15:52.713 [SimpleAsyncTaskExecutor-17] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@4979abce: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 12:15:57.744 [SimpleAsyncTaskExecutor-18] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 12:16:07.775 [SimpleAsyncTaskExecutor-18] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 12:16:17.808 [SimpleAsyncTaskExecutor-18] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 12:16:22.807 [SimpleAsyncTaskExecutor-18] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@38377242: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 12:16:27.838 [SimpleAsyncTaskExecutor-19] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 12:16:32.838 [SimpleAsyncTaskExecutor-18] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@6d70449f: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 12:16:37.869 [SimpleAsyncTaskExecutor-19] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 12:16:47.901 [SimpleAsyncTaskExecutor-19] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 12:16:57.934 [SimpleAsyncTaskExecutor-19] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [47.52.130.233:5672]
+2019-08-14 12:16:57.992 [SimpleAsyncTaskExecutor-19] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#1d0e20a0:66/SimpleConnection@70af229f [delegate=amqp://shopping@47.52.130.233:5672/shopping_test, localPort= 57222]
+2019-08-14 12:17:02.935 [SimpleAsyncTaskExecutor-19] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@435faa06: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2019-08-14 13:12:51.198 [Thread-42] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b361e77: startup date [Tue Aug 13 19:29:39 GMT+08:00 2019]; root of context hierarchy
+2019-08-14 13:12:51.202 [Thread-42] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2019-08-14 13:12:56.224 [Thread-42] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-08-14 13:12:56.775 [Thread-42] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-08-14 13:12:56.789 [Thread-42] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2019-08-14 13:12:57.210 [Thread-42] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2019-08-14 13:12:57.211 [Thread-42] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-08-14 13:12:57.211 [Thread-42] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+2019-08-14 13:12:57.217 [Thread-42] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2019-08-14 13:12:57.217 [Thread-42] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-08-14 13:12:57.217 [Thread-42] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-08-14 13:12:57.218 [Thread-42] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-08-14 13:12:57.219 [Thread-42] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-08-14 13:12:57.219 [Thread-42] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2019-08-14 13:12:57.220 [Thread-42] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-08-14 13:12:57.221 [Thread-42] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-08-14 13:12:57.252 [Thread-42] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-08-14 13:12:58.153 [restartedMain] INFO  com.shopping.ShoppingApplication - Starting ShoppingApplication on 2013-20190402PI with PID 5764 (D:\work\project\shopping\web\target\classes started by Administrator in D:\work\project\shopping)
+2019-08-14 13:12:58.153 [restartedMain] INFO  com.shopping.ShoppingApplication - The following profiles are active: local
+2019-08-14 13:12:58.166 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6c89d287: startup date [Wed Aug 14 13:12:58 GMT+08:00 2019]; root of context hierarchy
+2019-08-14 13:13:00.930 [restartedMain] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'rabbitTemplate' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=MQConfig; factoryMethodName=rabbitTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/shopping/service/mq/MQConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration$RabbitTemplateConfiguration; factoryMethodName=rabbitTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitTemplateConfiguration.class]]
+2019-08-14 13:13:00.970 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-14 13:13:01.179 [restartedMain] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'redisMessageListenerContainer' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=redisConfiguration; factoryMethodName=redisMessageListenerContainer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/shopping/config/RedisConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.session.RedisSessionConfiguration$SpringBootRedisHttpSessionConfiguration; factoryMethodName=redisMessageListenerContainer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/session/RedisSessionConfiguration$SpringBootRedisHttpSessionConfiguration.class]]
+2019-08-14 13:13:01.404 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$1c86d734] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-14 13:13:01.438 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$561b1906] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-14 13:13:01.463 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-14 13:13:01.464 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.shopping.config.RedisConfiguration$DataJedisProperties' of type [com.shopping.config.RedisConfiguration$DataJedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-14 13:13:01.465 [restartedMain] INFO  com.shopping.config.RedisConfiguration - Create JedisConnectionFactory successful
+2019-08-14 13:13:01.471 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jedisConnectionFactory' of type [org.springframework.data.redis.connection.jedis.JedisConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-14 13:13:01.473 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.shopping.config.RedisConfiguration$$EnhancerBySpringCGLIB$$ac752c39] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-14 13:13:01.479 [restartedMain] INFO  com.shopping.config.RedisConfiguration - 初始化 -> [CacheManager RedisCacheManager Start]
+2019-08-14 13:13:01.482 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cacheManager' of type [org.springframework.data.redis.cache.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-14 13:13:01.488 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'keyGenerator' of type [com.shopping.config.RedisConfiguration$$Lambda$573/1134413422] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-14 13:13:01.489 [restartedMain] INFO  com.shopping.config.RedisConfiguration - 初始化 -> [Redis CacheErrorHandler]
+2019-08-14 13:13:01.496 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'errorHandler' of type [com.shopping.config.RedisConfiguration$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-14 13:13:01.810 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-08-14 13:13:01.812 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-08-14 13:13:01.813 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-14 13:13:01.814 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-08-14 13:13:01.934 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-14 13:13:01.935 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3769 ms
+2019-08-14 13:13:02.121 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-14 13:13:02.121 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'sessionRepositoryFilter' to: [/*]
+2019-08-14 13:13:02.121 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-14 13:13:02.121 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-08-14 13:13:02.121 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-14 13:13:02.122 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'corsFilter' to: [/*]
+2019-08-14 13:13:02.122 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-08-14 13:13:02.220 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-08-14 13:13:02.267 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited

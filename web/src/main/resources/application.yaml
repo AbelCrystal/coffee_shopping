@@ -1,0 +1,109 @@
+spring:
+  devtools:
+    restart:
+      enabled: true
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
+    platform: mysql
+    url: jdbc:mysql://localhost:3306/coffee_shopping?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: test_123
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT1FROMDUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    filters: stat,wall,log4j
+    logSlowSql: true
+  redis:
+    ###Redis数据库索引（默认为0）
+    host: localhost
+    port: 6379
+    password: coffee_shopping#dc%tgb
+    jedis:
+      pool:
+        ###连接池最大连接数（使用负值表示没有限制）
+        max-active: 100
+        ###连接池最大阻塞等待时间（使用负值表示没有限制）
+        ###连接池中的最大空闲连接
+        max-idle: 100
+        ###连接池中的最小空闲连接
+        min-idle: 0
+        max-wait: -1
+    ###连接超时时间（毫秒）
+    timeout: 10000
+    database: 0
+  session:
+    store-type: redis
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: shopping
+    password: test_123
+    virtual-host: coffee_shopping_dev
+    listener:
+      simple:
+        concurrency: 10
+        max-concurrency: 10
+        prefetch: 1
+        auto-startup: true
+        default-requeue-rejected: true
+        retry:
+          enabled: true
+          initial-interval: 5000
+          max-attempts: 2
+    template:
+      retry:
+        enabled: true
+        initial-interval: 1000
+        max-attempts: 3
+        max-interval: 10000
+        multiplier: 1.0
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+mybatis:
+  # Mybatis配置Mapper路径
+  mapper-locations: classpath:mapper/*.xml
+  # Mybatis配置Model类对应
+  type-aliases-package: com.shopping.entity
+debug: true
+server:
+  servlet:
+    session:
+      timeout: "PT120M"
+  port: 8081
+  #短信配置
+smsconfig:
+  account: N8767237
+  password: 9trqEQ1z0
+  smsurl: http://smssh1.253.com/msg/send/json
+  timeout: 100
+oss:
+  endpoint: oss-cn-beijing.aliyuncs.com
+  url: https://oss-cn-beijing.aliyuncs.com/
+  accessKeyId: LTAIiM74EEYZ7xIJ
+  accessKeySecret: mOBnXL8FsdmY7Jay01xG4uufauhd3v
+  bucketName: tz-shopping
+  fileUrl: oss-cn-beijing.aliyuncs.com/
+servlet:
+  multipart:
+    enabled: true
+    max-request-size: 10MB
+    max-file-size: 10MB
+pay:
+  wxPayCallBack: http://shop.h5yun.com/pay/wxCallback #微信支付回调
+  aliPayCallback: http://shop.h5yun.com/pay/aliPayCallback #支付宝订单支付回调
+  aliRechargeCallback: http://shop.h5yun.com/pay/aliRechargeCallback #阿里充值支付回调
+  aliPayFinshBack: http://shop.h5yun.com/coffee/#/myoder       #支付宝支付成功返回页面
+  aliRechageFinshBack: http://shop.h5yun.com/coffee/#/Myself  #支付宝充值成功返回页面
+  authRedirectPage: http://shop.h5yun.com/coffee/#/loginTourist #支付宝微信
+order:
+  timeOut: 5 #订单未支付5分钟失效

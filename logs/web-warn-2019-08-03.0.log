@@ -1,0 +1,1 @@
+2019-08-03 05:56:50.958 [AMQP Connection 47.52.130.233:5672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Connection reset)

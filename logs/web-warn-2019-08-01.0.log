@@ -1,0 +1,6 @@
+2019-08-01 14:53:43.845 [Thread-50] WARN  o.s.d.redis.listener.RedisMessageListenerContainer - Unable to close connection. Subscription task still running
+2019-08-01 15:09:49.440 [Thread-57] WARN  o.s.d.redis.listener.RedisMessageListenerContainer - Unable to close connection. Subscription task still running
+2019-08-01 15:23:06.742 [redisMessageListenerContainer-9] WARN  o.s.s.data.redis.RedisOperationsSessionRepository - Unable to publish SessionDestroyedEvent for session 55982323-0863-4152-b267-94050c9ffb7d
+2019-08-01 15:30:04.711 [redisMessageListenerContainer-20] WARN  o.s.s.data.redis.RedisOperationsSessionRepository - Unable to publish SessionDestroyedEvent for session 52c5ba3f-bd13-445a-bf99-239083cd8261
+2019-08-01 15:48:18.881 [redisMessageListenerContainer-46] WARN  o.s.s.data.redis.RedisOperationsSessionRepository - Unable to publish SessionDestroyedEvent for session 3dfffd4c-0b6b-47d5-9055-a1c169c099c6
+2019-08-01 15:49:03.244 [redisMessageListenerContainer-49] WARN  o.s.s.data.redis.RedisOperationsSessionRepository - Unable to publish SessionDestroyedEvent for session be6a7946-09b7-44dd-88bd-2b7db246a99e

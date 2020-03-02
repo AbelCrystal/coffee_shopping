@@ -1,0 +1,15 @@
+2019-08-03 00:28:51.144 [redisMessageListenerContainer-26] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-03 02:29:06.275 [redisMessageListenerContainer-27] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-03 04:29:21.411 [redisMessageListenerContainer-28] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-03 05:56:50.965 [AMQP Connection 47.52.130.233:5672] ERROR o.s.a.rabbit.connection.CachingConnectionFactory - Channel shutdown: connection error
+2019-08-03 05:56:50.965 [AMQP Connection 47.52.130.233:5672] ERROR o.s.a.rabbit.connection.CachingConnectionFactory - Channel shutdown: connection error
+2019-08-03 05:56:50.966 [AMQP Connection 47.52.130.233:5672] ERROR o.s.a.rabbit.connection.CachingConnectionFactory - Channel shutdown: connection error
+2019-08-03 06:29:36.547 [redisMessageListenerContainer-29] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-03 08:29:51.684 [redisMessageListenerContainer-30] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-03 10:30:06.817 [redisMessageListenerContainer-31] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-03 12:30:21.948 [redisMessageListenerContainer-32] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-03 14:30:37.090 [redisMessageListenerContainer-33] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-03 16:39:50.459 [redisMessageListenerContainer-34] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-03 18:50:17.138 [redisMessageListenerContainer-40] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-03 20:54:30.464 [redisMessageListenerContainer-52] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+2019-08-03 22:54:45.600 [redisMessageListenerContainer-59] ERROR o.s.d.redis.listener.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
